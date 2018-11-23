@@ -1,0 +1,48 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PropertyExamples
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+
+            Console.ReadKey();
+        }
+
+        public static class ValidationHelper
+        {
+            public static string CheckModel<T>(T obj)
+            {
+                PropertyInfo[] propertyInfos =
+                    obj.GetType().GetProperties().Where(x => x.PropertyType == typeof(string)).ToArray();
+
+
+                return "";
+            }
+        }
+
+        [AttributeUsage(AttributeTargets.Property]
+        public class NotNullAttribute : Attribute
+        {
+
+        }
+
+
+        public class Product
+        {
+            public int Id { get; set; }
+            public string ProductName { get; set; }
+            public int Price { get; set; }
+        }
+
+
+    }
+}

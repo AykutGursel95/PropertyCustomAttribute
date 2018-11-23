@@ -1,0 +1,6 @@
+c:\users\aykutgursel\documents\visual studio 2015\Projects\PropertyExamples\PropertyExamples\bin\Debug\PropertyExamples.exe.config
+c:\users\aykutgursel\documents\visual studio 2015\Projects\PropertyExamples\PropertyExamples\bin\Debug\PropertyExamples.exe
+c:\users\aykutgursel\documents\visual studio 2015\Projects\PropertyExamples\PropertyExamples\bin\Debug\PropertyExamples.pdb
+c:\users\aykutgursel\documents\visual studio 2015\Projects\PropertyExamples\PropertyExamples\obj\Debug\PropertyExamples.csprojResolveAssemblyReference.cache
+c:\users\aykutgursel\documents\visual studio 2015\Projects\PropertyExamples\PropertyExamples\obj\Debug\PropertyExamples.exe
+c:\users\aykutgursel\documents\visual studio 2015\Projects\PropertyExamples\PropertyExamples\obj\Debug\PropertyExamples.pdb
